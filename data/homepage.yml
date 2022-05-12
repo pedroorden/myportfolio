@@ -1,22 +1,22 @@
 head:
-  title: "Pedro Orden | Especialista en el análisis masivo de datos."
+  title: "Pedro Orden | Data and Visualization."
 
 # showcase
 showcase:
   enable: true
-  title: "Hola! Soy Pedro Damián Orden."
-  subtitle: "Sociólogo y Programador"
-  description: "Soy un profesional de la sociología que articula la investigación social cuali/cuantitativa con técnicas de análisis computacional. Actualmente me desempeño como consultor en el sector privado y público, doy clases en la Universidad y coordino el <a target='_blank' href='https://www.nucleodeinnovacion.com/'> Núcleo de Innovación Social</a>, un hub descentralizado de desarrollo y formación en nuevas tecnologías."
+  title: "Hi! I'm Pedro Damián Orden."
+  subtitle: "Sociologist & Programmer"
+  description: "A sociology professional who articulates qualitative/quantitative social research with computational analysis techniques. I'm currently working as shiny developer in the private and public sector. I also coordiante the <a target='_blank' href='https://www.nucleodeinnovacion.com/'> Innovation Social Core</a>, un hub descentralizado de desarrollo y formación en nuevas tecnologías."
   image:
     x: "img/showcase/data-science.gif"
     _2x: "img/showcase/data-science.gif"
-  imageMobile:
+  imageMobile:    
     x: "img/showcase/data-science.gif"
     _2x: "img/showcase/data-science.gif"
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contactar a Pedro"
+    btnText: "Contact Pedro"
     URL: "pedroorden@gmail.com"
 
   socialLinks:
@@ -39,22 +39,21 @@ showcase:
 # about
 about:
   enable: true
-  title: "Sobre mi:"
+  title: "About me:"
   content: 
     <p class="lead">
-    <strong>Me apasiona la construcción de conocimiento complejo para resolver problemas concretos de la gente y sus organizaciones.</strong> Encontré en la programación un poderosa herramienta de desarrollo 
-    para complementar la expertisse profesional de la sociología, e interactuar, operativamente, con otros actores dinámicos del mundo digital. 
+    <strong>I am passionate about building complex knowledge to solve specific problems of people and their organizations.</strong> I found in programming a powerful development tool
+    to complement the professional expertise of sociology, and an effective way to interact, operationally, with other dynamic actors of the digital world. 
     </p>
     <p class="lead">
-    <strong>Me enfoco en las ciencias sociales computacionales</strong> para proveer de respuestas a todos aquellos requerimientos que tienen que ver con comprender a las personas y sus contextos por medio del análisis masivo de información. 
-    Mis principales habilidades son la minería de datos sociales, el análisis del lenguaje natural y la geo-computación.
+    <strong>I focus on computational social sciences and programming with R </strong> to provide answers to all those requirements that have to do with understanding people and their contexts through the massive analysis of information.
+    My main skills are social data mining, natural language analysis and geo-computing.
     </p>
     <p class="lead">
-    En los momentos de ocio disfruto de hacer deporte (correr y nadar mis favs), jugar videjuegos y producir música para proyectos audivisuales independientes.
-    </p>
+    In my spare time I enjoy playing sports (running and swimming my favs), playing video games and producing music for independent audiovisual projects.    </p>
   button:
     icon: "icon-smile-fill"
-    btnText: "Sobre mí"
+    btnText: "More"
     URL: "https://www.linkedin.com"
   image:
     x: "img/who-am-i/pedro.jpg"
@@ -63,48 +62,45 @@ about:
 # experience
 experience:
   enable: true
-  title: "Experiencia"
-  description: "Sólida trayectoria en la realización de estudios sociales cuali-cuantitativos. Diseño y desarrollo de productos basados en datos para ayudar a las organizaciones a optimizar la toma de decisiones y mejorar en la calidad de sus procesos."
+  title: "Experience"
+  description: "Solid track record in conducting qualitative-quantitative social studies that incorporate programming processes. Design and development of data-based products to help organizations optimize decision-making and improve the quality of their processes."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/pedroorden/"
   items:
 
-    - title: "Coordinador I+D"
-      company: "Núcleo de Innovación Social"
-      duration: "Mar 2019 - Actualidad"
-      
-    - title: "Consultoría en extracción, análisis y visualización masiva de datos"
-      company: "Freelance"
-      duration: " 2018 - Actualidad"
 
-    - title: "Investigador IA y Ciencias Sociales"
+    - title: "Research and data systematization coordinator"
+      company: "IDEP Salud-European Union"
+      duration: "Ene 2019 - present"
+      
+    - title: "Consultancy in analysis and visualization of massive data"
+      company: "Freelance"
+      duration: " 2018 - present"
+
+    - title: "Data Science Professor"
       company: "Universidad Nacional de Villa María"
       duration: "Ene 2020 - Dic 2021"
       
-    - title: "Coordinador de investigación y sistematización de datos"
-      company: "IDEP Salud-Unión Europea"
-      duration: "Ene 2018 - Dic 2021"
-
 
 
 # education
 education:
   enable: true
-  title: "Educación"
+  title: "Education"
   items:
     - university: "FLACSO"
       year: "2022"
-      degree: "Posgrado en Big Data e Inteligencia Territorial"
+      degree: "Postgraduate course in big data and territorial intelligence"
 
     - university: "Edx"
       year: "2017"
       degree: "Data Analysis for Social Scientists"
       
-    - university: "Universidad de Buenos Aires"
+    - university: "Buenos Aires University"
       year: "2004-2010"
-      degree: "Licenciatura en Sociología"
+      degree: "Sociology Degree"
 
 
 
@@ -146,22 +142,23 @@ client_and_work:
   #     alt: "Ztos"
 
   works:
-    - title: "Monitor Legislativo"
-      description: "El Monitor Legislativo es una herramienta que permite explorar el discurso de Diputados/as y Senadores/as nacionales, tomando como punto de partida el debate de la propuesta de acuerdo de Argentina con el Fondo Monetario Internacional."
+    - title: "Legislative Monitor"
+      description: "The Legislative Monitor is a tool that allows exploring the discourse of national Deputies and Senators, taking as a starting point the debate on the proposed agreement between Argentina and the International Monetary Fund."
       button:
         icon: "icon-arrow-right"
-        btnText: "Ver App"
+        btnText: "View App"
         URL: "https://pedroorden.shinyapps.io/monitor_legislativo/"
       image:
         x: "img/works/monitorlegislativo.jpg"
         _2x: "img/works/monitorlegislativo.jpg"
       is_even: true
 
-    - title: "Dashboard: Condiciones de vida en la Cuenca Matanza Riachuelo"
-      description: "Esta herramienta permite proyectar en un mapa el Índice de Calidad de Vida (ICV) que recoge datos abiertos sobre la población en la Cuenca Matanza – Riachuelo (CMR) a nivel de radio censal, de acuerdo a cuatro dimensiones que clave: vivienda, educación, salud y entorno. El procesamiento en conjunto de estas 4 variables da como resultado el IVC."
+
+    - title: "Dashboard: Living conditions in the Matanza Riachuelo Basin"
+      description: "This tool allows projecting on a map the Quality of Life Index (ICV) that collects open data on the population in the Matanza-Riachuelo Basin (CMR) at the census radio level, according to four key dimensions: housing, education, health and environment. The joint processing of these 4 variables results in the IVC."
       button:
         icon: "icon-arrow-right"
-        btnText: "Ver App"
+        btnText: "View App"
         URL: "https://monitores.shinyapps.io/monitorCMR/"
       image:
         x: "img/works/monitoric.jpg"
@@ -169,11 +166,11 @@ client_and_work:
       is_even: false
       
       
-    - title: "Monitor Socieconómico 2017-2021"
-      description: "El Monitor Socieconómico procesa y visualiza interactivamente los principales indicadores sociales y económicos de la Encuesta Permanente de Hogares (EPH Contínua) para el período 2017 a 2021."
+    - title: "Socioeconomic Monitor 2017-2021"
+      description: "The Socioeconomic Monitor interactively processes and visualizes the main social and economic indicators of the Permanent Household Survey (Continuous EPH) for the period 2017 to 2021."
       button:
         icon: "icon-arrow-right"
-        btnText: "Ver App"
+        btnText: "View App"
         URL: "https://pedroorden.shinyapps.io/socioeconomico/"
       image:
         x: "img/works/socioec.jpg"
@@ -181,8 +178,8 @@ client_and_work:
       is_even: false
       
       
-    - title: "Monitor Electoral del Conurbano Bonaerense: Legislativas 2021"
-      description: "Con esta herramienta podrás explorar los resultados de las Elecciones Legislativas 2021 para la categoría Diputado/a Nacional en el Conurbano Bonaerense según corredor de referencia (sur, oeste, norte). La propuesta es dar cuenta de los matices de la preferencia electoral, indagando en cómo se dirime la puja FDT-JUNTOS a escala territorial, para lo cual se extraen y visualizan en pantalla los datos de victorias de ambas fuerzas calculando los votos positivos por circuito electoral."
+    - title: "Electoral Map of Greater Buenos Aires: Legislative 2021"
+      description: "With this tool it is possible to explore the results of the 2021 Legislative Elections for the National Deputy category in Greater Buenos Aires according to the reference corridor (south, west, north). The proposal is to account for the nuances of electoral preference, investigating how the FDT-JUNTOS bid is settled on a territorial scale, for which the victory data of both forces are extracted and displayed on the screen, calculating the positive votes by electoral circuit."
       button:
         icon: "icon-arrow-right"
         btnText: "Ver App"
@@ -191,6 +188,8 @@ client_and_work:
         x: "img/works/electoral.jpg"
         _2x: "img/works/electoral.jpg"
       is_even: false
+      
+  
       
       
       
@@ -233,7 +232,7 @@ client_and_work:
 # contact
 contact:
   enable: true
-  title: "Contactar a Pedro"
+  title: "Contact Pedro"
     
   image:
     x: "img/who-am-i/pedro.jpg"
@@ -251,6 +250,6 @@ contact:
     title: "Email"
     email: '<a href="mailto:pedroorden@gmail.com">pedroorden@gmail.com</a>'
   address:
-    title: "Residencia"
+    title: "Residence"
     address: "Buenos Aires, Argentina."
   

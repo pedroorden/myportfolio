@@ -3,10 +3,10 @@ languageCode: en-us
 theme: raditian-free-hugo-theme-data-science
 params:
   footer:
-    copyright: © Pedro Orden. Todos los derechos reservados.
+    copyright: © Pedro Orden. All rights reserved.
     site_logo:
       _2x: img/general/business-science-logo.png
-      alt: Diseño & Código - Pedro Orden
+      alt: Design & Code - Pedro Orden
       x: img/general/business-science-logo.png
   googleAnalyticsID: ''
   logo:
@@ -37,7 +37,7 @@ menu:
       name: Portfolio
       weight: 3
     - URL: '#contact'
-      name: Contacto
+      name: contact
       weight: 4
   header:
     - URL: '#about'
@@ -47,5 +47,5 @@ menu:
       name: Portfolio
       weight: 3
     - URL: '#contact'
-      name: Contacto
+      name: Contact
       weight: 4
