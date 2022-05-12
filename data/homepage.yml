@@ -6,7 +6,7 @@ showcase:
   enable: true
   title: "Hi! I'm Pedro Damián Orden."
   subtitle: "Sociologist & Programmer"
-  description: "A sociology professional who articulates qualitative/quantitative social research with computational analysis techniques. I'm currently working as shiny developer in the private and public sector. I also coordiante the <a target='_blank' href='https://www.nucleodeinnovacion.com/'> Innovation Social Core</a>, un hub descentralizado de desarrollo y formación en nuevas tecnologías."
+  description: "A sociology professional who articulates qualitative/quantitative social research with computational analysis techniques. I'm currently working as shiny developer in the private and public sector. I also coordiante the <a target='_blank' href='https://www.nucleodeinnovacion.com/'> Innovation Social Core</a>."
   image:
     x: "img/showcase/data-science.gif"
     _2x: "img/showcase/data-science.gif"
@@ -188,17 +188,6 @@ client_and_work:
         x: "img/works/electoral.jpg"
         _2x: "img/works/electoral.jpg"
       is_even: false
-      
-  
-      
-      
-      
-      
-      
-      
-      
-
-    
 
 # # testimonial
 # testimonial:
