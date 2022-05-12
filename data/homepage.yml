@@ -1,0 +1,256 @@
+head:
+  title: "Pedro Orden | Especialista en el análisis masivo de datos."
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola! Soy Pedro Damián Orden."
+  subtitle: "Sociólogo y Programador"
+  description: "Soy un profesional de la sociología que articula la investigación social cuali/cuantitativa con técnicas de análisis computacional. Actualmente me desempeño como consultor en el sector privado y público, doy clases en la Universidad y coordino el <a target='_blank' href='https://www.nucleodeinnovacion.com/'> Núcleo de Innovación Social</a>, un hub descentralizado de desarrollo y formación en nuevas tecnologías."
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contactar a Pedro"
+    URL: "pedroorden@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/pedroorden/"
+
+    - icon: "github"
+      URL: "https://github.com/pedroorden"
+
+    - icon: "medium"
+      URL: "https://pedroorden.medium.com/"
+
+    - icon: "codepen"
+      URL: "https://independent.academia.edu/PedroOrden"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/watch?v=9HAa-nvKnfU"
+
+
+# about
+about:
+  enable: true
+  title: "Sobre mi:"
+  content: 
+    <p class="lead">
+    <strong>Me apasiona la construcción de conocimiento complejo para resolver problemas concretos de la gente y sus organizaciones.</strong> Encontré en la programación un poderosa herramienta de desarrollo 
+    para complementar la expertisse profesional de la sociología, e interactuar, operativamente, con otros actores dinámicos del mundo digital. 
+    </p>
+    <p class="lead">
+    <strong>Me enfoco en las ciencias sociales computacionales</strong> para proveer de respuestas a todos aquellos requerimientos que tienen que ver con comprender a las personas y sus contextos por medio del análisis masivo de información. 
+    Mis principales habilidades son la minería de datos sociales, el análisis del lenguaje natural y la geo-computación.
+    </p>
+    <p class="lead">
+    En los momentos de ocio disfruto de hacer deporte (correr y nadar mis favs), jugar videjuegos y producir música para proyectos audivisuales independientes.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mí"
+    URL: "https://www.linkedin.com"
+  image:
+    x: "img/who-am-i/pedro.jpg"
+    _2x: "img/who-am-i/pedro.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "Sólida trayectoria en la realización de estudios sociales cuali-cuantitativos. Diseño y desarrollo de productos basados en datos para ayudar a las organizaciones a optimizar la toma de decisiones y mejorar en la calidad de sus procesos."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/pedroorden/"
+  items:
+
+    - title: "Coordinador I+D"
+      company: "Núcleo de Innovación Social"
+      duration: "Mar 2019 - Actualidad"
+      
+    - title: "Consultoría en extracción, análisis y visualización masiva de datos"
+      company: "Freelance"
+      duration: " 2018 - Actualidad"
+
+    - title: "Investigador IA y Ciencias Sociales"
+      company: "Universidad Nacional de Villa María"
+      duration: "Ene 2020 - Dic 2021"
+      
+    - title: "Coordinador de investigación y sistematización de datos"
+      company: "IDEP Salud-Unión Europea"
+      duration: "Ene 2018 - Dic 2021"
+
+
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "FLACSO"
+      year: "2022"
+      degree: "Posgrado en Big Data e Inteligencia Territorial"
+
+    - university: "Edx"
+      year: "2017"
+      degree: "Data Analysis for Social Scientists"
+      
+    - university: "Universidad de Buenos Aires"
+      year: "2004-2010"
+      degree: "Licenciatura en Sociología"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  # enable_clients: false
+  # clients:
+  #   - logo:
+  #       x: "img/clients/asgardia.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
+  # 
+  #   - logo:
+  #       x: "img/clients/earth-2.png"
+  #       _2x: "img/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
+  # 
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
+  # 
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
+  # 
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
+  # 
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
+
+  works:
+    - title: "Monitor Legislativo"
+      description: "El Monitor Legislativo es una herramienta que permite explorar el discurso de Diputados/as y Senadores/as nacionales, tomando como punto de partida el debate de la propuesta de acuerdo de Argentina con el Fondo Monetario Internacional."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver App"
+        URL: "https://pedroorden.shinyapps.io/monitor_legislativo/"
+      image:
+        x: "img/works/monitorlegislativo.jpg"
+        _2x: "img/works/monitorlegislativo.jpg"
+      is_even: true
+
+    - title: "Dashboard: Condiciones de vida en la Cuenca Matanza Riachuelo"
+      description: "Esta herramienta permite proyectar en un mapa el Índice de Calidad de Vida (ICV) que recoge datos abiertos sobre la población en la Cuenca Matanza – Riachuelo (CMR) a nivel de radio censal, de acuerdo a cuatro dimensiones que clave: vivienda, educación, salud y entorno. El procesamiento en conjunto de estas 4 variables da como resultado el IVC."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver App"
+        URL: "https://monitores.shinyapps.io/monitorCMR/"
+      image:
+        x: "img/works/monitoric.jpg"
+        _2x: "img/works/monitoric.jpg"
+      is_even: false
+      
+      
+    - title: "Monitor Socieconómico 2017-2021"
+      description: "El Monitor Socieconómico procesa y visualiza interactivamente los principales indicadores sociales y económicos de la Encuesta Permanente de Hogares (EPH Contínua) para el período 2017 a 2021."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver App"
+        URL: "https://pedroorden.shinyapps.io/socioeconomico/"
+      image:
+        x: "img/works/socioec.jpg"
+        _2x: "img/works/socioec.jpg"
+      is_even: false
+      
+      
+    - title: "Monitor Electoral del Conurbano Bonaerense: Legislativas 2021"
+      description: "Con esta herramienta podrás explorar los resultados de las Elecciones Legislativas 2021 para la categoría Diputado/a Nacional en el Conurbano Bonaerense según corredor de referencia (sur, oeste, norte). La propuesta es dar cuenta de los matices de la preferencia electoral, indagando en cómo se dirime la puja FDT-JUNTOS a escala territorial, para lo cual se extraen y visualizan en pantalla los datos de victorias de ambas fuerzas calculando los votos positivos por circuito electoral."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver App"
+        URL: "https://monitores.shinyapps.io/_legislativas21/"
+      image:
+        x: "img/works/electoral.jpg"
+        _2x: "img/works/electoral.jpg"
+      is_even: false
+      
+      
+      
+      
+      
+      
+      
+
+    
+
+# # testimonial
+# testimonial:
+#   enable: true
+#   title: "Testimonials"
+#   items:
+#   
+#     - name: "Justin Kurland, PhD"
+#       position: "Lead Data Scientist, Northwestern Mutual"
+#       content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+#       image:
+#         x: "img/testimonials/justin.jpg"
+#         _2x: "img/testimonials/justin.jpg"
+#         
+#     - name: "Chris Selig"
+#       position: "Data Scientist"
+#       content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+#       image:
+#         x: "img/testimonials/chris.jpg"
+#          _2x: "img/testimonials/chris.jpg"
+# 
+#     
+# 
+#     - name: "Mohana Krishna Chittoor"
+#       position: "Lead Data Scientist, Money View"
+#       content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+#       image:
+#         x: "img/testimonials/mohana.jpg"
+#         _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contactar a Pedro"
+    
+  image:
+    x: "img/who-am-i/pedro.jpg"
+    _2x: "img/who-am-i/pedro.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Escribime"
+    btnAction: 'mailto:pedroorden@gmail.com'
+    
+  phone:
+    title: "Discord"
+    number: "pedroorden#7077"
+  email:
+    title: "Email"
+    email: '<a href="mailto:pedroorden@gmail.com">pedroorden@gmail.com</a>'
+  address:
+    title: "Residencia"
+    address: "Buenos Aires, Argentina."
+  
